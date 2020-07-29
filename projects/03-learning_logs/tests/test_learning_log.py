@@ -1,4 +1,4 @@
-from 07_learning_log import __version__
+from learning_log import __version__
 
 
 def test_version():

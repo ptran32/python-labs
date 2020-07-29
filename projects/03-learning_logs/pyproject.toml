@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "07-learning_log"
+name = "learning_log"
 version = "0.1.0"
 description = ""
 authors = ["Patrice Tran"]
