@@ -13,6 +13,10 @@ Web application which allow a user to manage his personal notes:
 - python >= 3.8
 - Poetry installed on your laptop ( [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry) )
 
+*Access to the application hosted on Heroku*
+
+[https://enigmatic-inlet-39817.herokuapp.com/](https://enigmatic-inlet-39817.herokuapp.com/)
+
 
 **Run app**
 
