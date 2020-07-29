@@ -15,7 +15,7 @@ Web application which allow a user to manage his personal notes:
 
 *Access to the application hosted on Heroku*
 
-[https://enigmatic-inlet-39817.herokuapp.com/](https://enigmatic-inlet-39817.herokuapp.com/)
+[https://learning-log-heroku.herokuapp.com/](https://learning-log-heroku.herokuapp.com/)
 
 
 **Run app**
