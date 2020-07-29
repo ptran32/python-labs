@@ -1,0 +1,27 @@
+{% extends "learning_logs/base.html" %}
+{% load bootstrap4 %}
+
+
+{% block page_header %}
+  <h3>Add new topic</h3>
+{% endblock page_header %}
+
+
+{% block content %}
+
+<!-- Send to the view new -->
+<!-- Get is the default method for form -->
+<!-- Title is going to be in the search url. e.g: /new_topic/?title=www -->
+<!-- a '.' in action= will have an url only composed of the query search. will redirect to the same place  -->
+
+<form action="{% url 'learning_logs:new_topic' %}" method="POST">
+    {% csrf_token %}
+    <!-- render form from views into html -->
+    {% bootstrap_form form %}
+
+    {% buttons %}
+    <button name="submit" class="btn btn-primary">Add topic</button>
+    {% endbuttons %}
+</form>
+
+{% endblock content %}

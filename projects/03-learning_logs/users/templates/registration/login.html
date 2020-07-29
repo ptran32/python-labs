@@ -1,0 +1,29 @@
+<!-- A template in one app can inherit a template from another app -->
+{% extends "learning_logs/base.html" %}
+{% load bootstrap4 %}
+
+{% block page_header %}
+  <h2>Log in to your account.</h2>
+{% endblock page_header %}
+
+{% block content %}
+<!-- Don't match anything in the DB -->
+<!-- Removed  if form.errors  as it's automatically handle by bootstrap -->
+
+<!-- Send  to login view to process the form. View already built-in in Django. no need to create it. -->
+<!-- replace form.as_p -->
+<form class="form" action="{% url 'users:login' %}" method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+
+    {% buttons %}
+<button name="submit" class="btn btn-primary">Log in</button>
+    {% endbuttons %}
+
+  <!-- Tells django where to redirect the user after clicking -->
+<!-- name="next" is mandatory here -->
+<!-- If not will gonna to redirect to accounts/profile/ and will fail -->
+<input type="hidden" name="next" value="{% url 'learning_logs:index' %}" />
+</form>
+
+{% endblock content %}

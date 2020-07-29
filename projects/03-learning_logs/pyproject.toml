@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "07-learning_log"
+version = "0.1.0"
+description = ""
+authors = ["Patrice Tran"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "2.2.*"
+requests = "^2.24.0"
+django-bootstrap4 = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,26 @@
+{
+    "John": {
+        "id": 1,
+        "country": "Belgium",
+        "age": 36,
+        "is_superuser": false
+    },
+    "Ben": {
+        "id": 2,
+        "country": "France",
+        "age": 20,
+        "is_superuser": true
+    },
+    "Robert": {
+        "id": 3,
+        "country": "Portugal",
+        "age": 87,
+        "is_superuser": false
+    },
+    "Kyle": {
+        "id": 4,
+        "country": "Spain",
+        "age": 23,
+        "is_superuser": true
+    }
+}
