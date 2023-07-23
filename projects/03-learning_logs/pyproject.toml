@@ -7,7 +7,7 @@ authors = ["Patrice Tran"]
 [tool.poetry.dependencies]
 python = "^3.8"
 django = "2.2.*"
-requests = "^2.24.0"
+requests = "^2.31.0"
 django-bootstrap4 = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
